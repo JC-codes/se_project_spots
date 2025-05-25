@@ -3,9 +3,7 @@
   font-size: 16px;
   line-height: 1;
   color: rgba(33, 33, 33, 0.7);
-  height: 16px;
-  width: 104px;
   display: flex;
   justify-content: center;
-  padding: 60px 0 60px;
+  padding: 60px 0;
 }
