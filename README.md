@@ -10,10 +10,6 @@ Welcome to project 3 of the TripleTen bootcamp for software engineering, using g
 - Developing Responsive Designs
 - Building Media Queries for a responsive design
 
-**Intro**
-
-This project is made so all the elements are displayed correctly on popular screen sizes. We recommend investing more time in completing this project, since it's more difficult than previous ones.
-
 **Deployment**
 
 - [https://mad-bronco.github.io/se_project_spots/] Here is the link to my deployed figma page.
