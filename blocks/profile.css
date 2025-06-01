@@ -18,9 +18,11 @@
 
 .profile__name {
   margin: 0 0 12px;
+  color: #212121;
   font-weight: 500;
   font-size: 32px;
   line-height: 1;
+  letter-spacing: 0;
   display: -webkit-box;
   overflow: hidden;
   text-overflow: ellipsis;
