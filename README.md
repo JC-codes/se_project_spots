@@ -13,7 +13,7 @@ Welcome to project 3 of the TripleTen bootcamp for software engineering, using g
 **Deployment**
 
 - [https://mad-bronco.github.io/se_project_spots/] Here is the link to my deployed figma page.
-- [https://drive.google.com/file/d/1GfElCfLPV9ZjFn_u3-dtWd-o2NbzRSMx/view?usp=drive_link] Here is a link to my overview of the project.
+- [https://drive.google.com/file/d/1ExqV3cyyWTDA09N9BGQ05fbLJBv_q-Hd/view?usp=drive_link] Here is a link to my overview of the project.
 
 **Images**
 
