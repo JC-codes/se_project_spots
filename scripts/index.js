@@ -40,7 +40,7 @@ newPostCloseBtn.addEventListener("click", function () {
 });
 
 function handleAddCardSubmit(evt) {
-  console.log(newPostLinkInput, newPostCaptionInput);
+  console.log(newPostLinkInput.value, newPostCaptionInput.value);
   evt.preventDefault();
   newPostModal.classList.remove("modal_is-opened");
 }
