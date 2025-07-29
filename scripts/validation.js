@@ -12,6 +12,7 @@ const showInputError = (formElement, inputElement, errorMsg, config) => {
     `#${inputElement.id}-error`
   );
   inputElement.classList.add(config.inputErrorClass);
+  errorMsgElement.textContent = config.errorClass;
   errorMsgElement.textContent = errorMsg;
 };
 
@@ -57,6 +58,7 @@ const disableButton = (buttonElement, config) => {
 };
 
 const resetValidation = (formElement, inputList, config) => {
+  disableButton(buttonElement, config);
   inputList.forEach((input) => {
     hideInputError(formElement, input, config);
   });
