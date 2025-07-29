@@ -11,16 +11,16 @@ const showInputError = (formElement, inputElement, errorMsg, config) => {
   const errorMsgElement = formElement.querySelector(
     `#${inputElement.id}-error`
   );
-  errorMsgElement.textContent = errorMsg;
   inputElement.classList.add(config.inputErrorClass);
+  errorMsgElement.textContent = errorMsg;
 };
 
 const hideInputError = (formElement, inputElement, config) => {
   const errorMsgElement = formElement.querySelector(
     `#${inputElement.id}-error`
   );
-  errorMsgElement.textContent = "";
   inputElement.classList.remove(config.inputErrorClass);
+  errorMsgElement.textContent = "";
 };
 
 const checkInputValidity = (formElement, inputElement, config) => {
