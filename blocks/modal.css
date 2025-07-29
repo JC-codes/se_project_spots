@@ -106,6 +106,19 @@
   color: rgba(33, 33, 33, 0.3);
 }
 
+.modal__input_type_error {
+  border: 1px solid rgba(255, 0, 0, 0.6);
+}
+
+.modal__error {
+  display: block;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.1;
+  color: rgba(255, 0, 0, 0.7);
+  margin-top: 8px;
+}
+
 .modal__submit-btn {
   max-width: 156px;
   width: 100%;
@@ -123,6 +136,10 @@
 
 .modal__submit-btn:hover {
   opacity: 80%;
+}
+
+.modal__submit-btn_inactive {
+  opacity: 50%;
 }
 
 .modal__image-container {
