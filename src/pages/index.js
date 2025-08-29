@@ -1,3 +1,12 @@
+import "./index.css";
+
+import {
+  enableValidation,
+  settings,
+  disableButton,
+  resetValidation,
+} from "../scripts/validation.js";
+
 const initialCards = [
   {
     name: "Val Thorens",
@@ -133,7 +142,7 @@ function handleAddCardSubmit(evt) {
 
   const cardElement = getCardElement(inputValues);
   cardList.prepend(cardElement);
-  evt.target.reset();
+  newPostForm.reset();
   disableButton(cardSubmitButton, settings);
   closeModal(newPostModal);
 }
@@ -165,3 +174,5 @@ initialCards.forEach(function (item) {
   const cardElement = getCardElement(item);
   cardList.append(cardElement);
 });
+
+enableValidation(settings);
