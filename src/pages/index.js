@@ -204,6 +204,8 @@ function handleAddAvatarSubmit(evt) {
     })
     .then((data) => {
       profileAvatarElement.src = data.avatar;
+      editAvatarForm.reset();
+      disableButton(evt.submitter, settings);
       closeModal(editAvatarModal);
     })
     .catch(console.error)
